@@ -37,7 +37,7 @@ import SocketServer
 import SimpleHTTPServer
 
 reboot = 0
-HOST = "192.168.1.1"
+HOST = "192.168.111.1"
 PORT = 8080
 user = "admin"
 #password = getpass.getpass()
@@ -280,4 +280,3 @@ if imagefile or url:
 
 tn.write("exit\n")
 tn.close()
-

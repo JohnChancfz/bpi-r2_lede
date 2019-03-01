@@ -821,9 +821,9 @@ static void usage(const char *prog)
 	fprintf(stderr,
 	        "Examples:\n\n"
 	        " Calculate a DHCP range:\n\n"
-	        "  $ %s 192.168.1.1/255.255.255.0 network add 100 print add 150 print\n"
-			"  192.168.1.100\n"
-			"  192.168.1.250\n\n"
+	        "  $ %s 192.168.111.1/255.255.255.0 network add 100 print add 150 print\n"
+			"  192.168.111.100\n"
+			"  192.168.111.250\n\n"
 			" Count number of prefixes:\n\n"
 			"  $ %s 2001:0DB8:FDEF::/48 howmany ::/64\n"
 			"  65536\n\n",
